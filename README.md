@@ -4,4 +4,4 @@
 
 ## What is System Verilog?
 
-#### System Verilog is a Hardware Description Language(HDL) that is used in industries.
+#### System Verilog is a Hardware Description Language(HDL) that is widely used in industries.
