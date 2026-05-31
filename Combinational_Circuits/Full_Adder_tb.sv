@@ -9,14 +9,14 @@ module Full_Adder_tb ();
 
     initial begin
 
-        #10 A <= 0; B <= 0; Cin <= 0;
-        #30 A <= 0; B <= 0; Cin <= 1; 
-        #40 A <= 0; B <= 1; Cin <= 0;
-        #50 A <= 0; B <= 1; Cin <= 1;
-        #60 A <= 1; B <= 0; Cin <= 0;
-        #70 A <= 1; B <= 0; Cin <= 1;
-        #80 A <= 1; B <= 1; Cin <= 0;
-        #90 A <= 1; B <= 1; Cin <= 1;
+        #10 A = 0; B = 0; Cin = 0;
+        #10 A = 0; B = 0; Cin = 1; 
+        #10 A = 0; B = 1; Cin = 0;
+        #10 A = 0; B = 1; Cin = 1;
+        #10 A = 1; B = 0; Cin = 0;
+        #10 A = 1; B = 0; Cin = 1;
+        #10 A = 1; B = 1; Cin = 0;
+        #10 A = 1; B = 1; Cin = 1;
 
         #100 $finish;
     end
