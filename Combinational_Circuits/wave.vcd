@@ -1,0 +1,68 @@
+$date
+	Sun May 31 18:48:02 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module Full_Adder_tb $end
+$var wire 1 ! S $end
+$var wire 1 " Cout $end
+$var reg 1 # A $end
+$var reg 1 $ B $end
+$var reg 1 % Cin $end
+$scope module Full_Adder0 $end
+$var wire 1 # A $end
+$var wire 1 $ B $end
+$var wire 1 % Cin $end
+$var wire 1 " Cout $end
+$var wire 1 ! S $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+x%
+x$
+x#
+x"
+x!
+$end
+#10
+0"
+0!
+0%
+0$
+0#
+#40
+1!
+1%
+#80
+0%
+1$
+#130
+1"
+0!
+1%
+#190
+0"
+1!
+0%
+0$
+1#
+#260
+1"
+0!
+1%
+#340
+0%
+1$
+#430
+1!
+1%
+#530
